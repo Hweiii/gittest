@@ -1,0 +1,25 @@
+@mixin font-big
+    font-size: 1.25rem
+    line-height: 1.5rem
+    @media only screen and (max-width: 1024px)
+        font-size: 2vw
+        line-height: 2.5vw
+    
+@mixin centerAb
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+@mixin centerFlex
+    display: flex
+    justify-content: center
+    align-items: center
+
+@mixin r($index)
+    border-radius: $index
+    -webkit-border-radius: $index
+
+@mixin circle
+    border-radius: 50%
+    -webkit-border-radius: 50%

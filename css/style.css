@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import url(notosanstc.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+html {
+  font-size: 20px; }
+
+body {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+  background: #FFF;
+  font-family: "Roboto", "Noto Sans TC"; }
+  body.fix {
+    overflow: hidden; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.fullimg {
+  display: block;
+  width: 100%; }
+
+.fullimgHeight {
+  display: block;
+  height: 100%;
+  margin: auto; }
+
+.clear {
+  clear: both; }
+
+input {
+  background: none;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+  input:focus {
+    outline: none; }
+
+ul {
+  list-style: none;
+  margin-left: 1rem; }
+  ul li {
+    position: relative; }
+    ul li::before {
+      position: absolute;
+      content: "・";
+      left: -1rem; }
+
+.ytVideo {
+  display: block;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden; }
+
+@media only screen and (min-width: 1025px) {
+  .for-m {
+    display: none !important; } }
+@media only screen and (max-width: 1440px) {
+  html {
+    font-size: 16px; } }
+@media only screen and (max-width: 1024px) {
+  .for-pc {
+    display: none !important; } }
+
+/*# sourceMappingURL=style.css.map */
